@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="45dp"
+    android:orientation="vertical"
+    android:id="@+id/garden_container">
+    <!-- 单个果园信息 -->
+    <RelativeLayout
+        android:id="@+id/layout_garden_everygd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:visibility="visible">
+        <RelativeLayout
+            android:id="@+id/layout_footer_01"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/ic_garden_buttom_bg"
+            android:layout_alignParentBottom="true">
+            <!-- 果园事件 -->
+            <ImageView
+                android:id="@+id/img_garden_things"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/ic_garden_thing"
+                android:visibility="gone"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp">
+                <!-- 种果树  采摘 -->
+                <ImageView
+                    android:id="@+id/img_garden_get"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="135dp"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_garden_get"/>
+            </LinearLayout>
+            <!-- 列表与每一个果园切换图 -->
+            <ImageView
+                android:id="@+id/img_garden_golist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="35dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_garden_golist">
+            </ImageView>
+        </RelativeLayout>
+        <!-- 自己种下的果树 -->
+        <RelativeLayout
+            android:id="@+id/layout_garden_fruittree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/layout_footer_01"
+            android:layout_marginBottom="-40dp"
+            android:layout_centerHorizontal="true">
+            <!-- 果树 -->
+            <ImageView
+                android:id="@+id/img_garden_fruittree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_darden_tree_05"
+                android:visibility="gone"/>
+            <!-- 果子 -->
+            <ImageView
+                android:id="@+id/img_garden_tree_fruit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_garden_tree_fruit"/>
+            <!-- 虫子 -->
+            <cn.com.cjland.zhirenguo.views.NoslidingGridView
+                android:id="@+id/gridview_group_insect"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="40dp"
+                android:numColumns="8"
+                android:columnWidth="30dp"
+                android:listSelector="@android:color/transparent"
+                android:stretchMode="columnWidth"/>
+        </RelativeLayout>
+        <!-- 推荐人 -->
+        <ImageView
+            android:id="@+id/img_garden_referee_one"
+            android:layout_above="@id/layout_footer_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-65dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_garden_referee_02"
+            android:visibility="gone"/>
+        <!-- 系统果树 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_above="@id/layout_footer_01">
+            <!-- 系统果树背景-树 -->
+            <ImageView
+                android:id="@+id/img_garden_systemtree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_garden_sys_tree"
+                android:visibility="gone"/>
+            <!-- 系统果树背景-果 -->
+            <ImageView
+                android:id="@+id/img_garden_sys_fruit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_garden_sys_fruit"
+                android:visibility="gone"/>
+        </RelativeLayout>
+        <!-- 果园名称 -->
+        <RelativeLayout
+            android:id="@+id/layout_gerden_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:background="@drawable/ic_garden_name_bg">
+            <TextView
+                android:id="@+id/txt_garden_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- 果园列表 -->
+    <RelativeLayout
+        android:id="@+id/layout_garden_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:visibility="gone">
+        <ListView
+            android:id="@+id/list_fruit_garden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="0dp"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            />
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_garden_data"
+            />
+    </RelativeLayout>
+</RelativeLayout>

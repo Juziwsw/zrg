@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  邮件内容 -->
+    <RelativeLayout
+        android:id="@+id/layout_msg_des"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/ic_login_agreement_bg"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <ImageView
+            android:id="@+id/img_extra_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_email_close"/>
+        <LinearLayout
+            android:id="@+id/layout_msgdes_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="65dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txt_extra_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/extra_text"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_msgdes_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_msgdes_title"
+            android:layout_marginLeft="79dp"
+            android:layout_marginRight="65dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:lineSpacingExtra="3dp"
+            android:textColor="@color/color61281d"
+            android:text="你的果袋容量不足，500枚果币存放在系统零时床扩种"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true">
+            <!-- 添加好友 同意 忽略 -->
+            <LinearLayout
+                android:id="@+id/layout_msgdes_visit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+                <Button
+                    android:id="@+id/btn_new_garden"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/ic_main_newgar"/>
+                <Button
+                    android:id="@+id/btn_invite_friend"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_main_visit"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

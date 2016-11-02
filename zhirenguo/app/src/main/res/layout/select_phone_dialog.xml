@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_phone_ghotograph"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FE4C4C"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16sp"
+            android:background="@drawable/ic_red_side_bg"
+            android:text="拍照"/>
+        <Button
+            android:id="@+id/btn_photo_album"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FE4C4C"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16sp"
+            android:background="@drawable/ic_red_side_bg"
+            android:text="选择已有照片"/>
+    </LinearLayout>
+
+</LinearLayout>

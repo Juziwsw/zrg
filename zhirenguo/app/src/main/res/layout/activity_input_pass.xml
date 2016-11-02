@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/ic_bg_all"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_inputpass_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_phono_number"
+            android:background="@drawable/ic_phonenum_input"
+            android:layout_marginTop="74dp"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/colorWhite"
+            android:hint="请输入密码" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码？"
+            android:textColor="@color/color666"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="67dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:id="@+id/button_login"
+            android:background="@drawable/ic_login_btn"/>
+    </LinearLayout>
+</LinearLayout>

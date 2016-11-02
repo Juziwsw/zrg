@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_loading_04"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/gold_coin_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_loading_gold"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_coin_04"
+            android:layout_below="@id/gold_coin_04"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color666"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:text="获25果币"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/img_guide_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_loading_start"
+        android:visibility="gone"/>
+</RelativeLayout>

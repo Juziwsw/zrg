@@ -1,0 +1,22 @@
+<resources>
+    <!-- 果园 -->
+    <string name="fruit_garden">果园</string>
+    <string name="join_fruit_garden">加入果园</string>
+    <string name="create_fruit_garden">创建果园</string>
+    <string name="garden_name_default">世外桃源</string>
+    <string name="my_fruit_garden">我的果园</string>
+    <string name="friend_fruit_garden">果友果园</string>
+    <string name="holdings_fruit_garden">控股果园</string>
+    <string name="submit_text">提交</string>
+    <string name="ok_text">确定</string>
+    <string name="cancel_text">取消</string>
+    <string name="search_text">搜索</string>
+    <string name="extra_text">扩充说明</string>
+    <string name="no_friend_data">暂无好友记录~</string>
+    <string name="no_search_friend_data">暂无果友搜索结果~</string>
+    <string name="no_garden_data">暂无果园记录~</string>
+    <string name="no_search_garden_data">暂无果园搜索结果~</string>
+    <string name="no_msg_data">暂无消息记录~~</string>
+    <string name="do_invite_text">暂无消息记录~~</string>
+    <string name="do_add_data">暂无消息记录~~</string>
+</resources>

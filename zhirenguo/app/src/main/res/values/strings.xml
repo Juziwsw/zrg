@@ -1,0 +1,127 @@
+<resources>
+    <!-- 应用名称 -->
+    <string name="app_name">至人果</string>
+
+    <!-- fragment title -->
+    <string name="bar_title_Letovote">乐投</string>
+    <string name="bar_title_fruit_garden">果园</string>
+    <string name="bar_title_fruit_friend">果友</string>
+    <!-- 标题 -->
+    <string name="title_encoll">用户注册</string>
+    <!-- Button按钮 -->
+    <string name="btn_get_code">获取</string>
+    <!-- 提示文字 -->
+    <string name="hint_user_phono">请输入手机号</string>
+    <string name="hint_user_nickname">请输入昵称</string>
+    <string name="hint_user_password">请输入密码</string>
+    <string name="hint_user_password_num">请输入6~12位密码</string>
+    <string name="hint_user_invitecode">邀请码(可填)</string>
+    <string name="hint_user_sign">个性签名</string>
+    <string name="hint_create_name">请输入果园名称</string>
+    <string name="hint_modify_des">请输入果园介绍</string>
+    <string name="hint_create_des">为你的果园来一个华丽的介绍吧！</string>
+    <string name="hint_user_auto">验证码</string>
+    <!-- 密码输入限制 -->
+    <string name="password_imput_rule">1234567890AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz_.</string>
+
+    <!-- 显示文字 -->
+    <string name="txt_main_right_01">果袋</string>
+    <string name="txt_main_right_02">股份</string>
+    <string name="txt_foget_password">忘记密码?</string>
+    <string name="txt_waring">我已阅读并同意《用户注册协议》</string>
+    <string name="txt_user_terms_title">用户条款</string>
+    <string name="txt_user_terms">一、不得利用本站危害国家安全、泄露国家秘密，不得侵犯国家社会集体的和公民的合法权益，不得利用本站制作、复制和传播下列信息，若用户的行为违反约定，本网可依据独立判断，立即取消对该用户的网络服务.</string>
+    <string name="txt_user_terms02">二、互相尊重，对自己的言论和行为负责。</string>
+    <string name="txt_user_terms03">（1）用户一旦注册成功，成为本网的合法会员，将得到一个用户名和密码，用户须对其用户名和密码严格保密。</string>
+    <string name="txt_user_terms04">（2）安全性：每个会员应当对以其用户名进行的所有活动和事件负责，发生违反保密规定的情况及发现任何非法使用用户名或存在安全漏洞的情况，须立即通知本网</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_network_waring">请检查网络</string>
+    <string name="txt_garden_Legend_01">相传有位至人曾经来到这里\n并留下一粒至人果种子\n传说中凡是具有大气运的人\n在这里建立至人果园\n才能种植至人果树!</string>
+    <string name="txt_garden_Legend_02">历经九九八十一难\n终于\n你在这神秘果园中找到一粒至人果种子\n呐，快种植至人果树吧!</string>
+    <string name="txt_user_info">个人信息</string>
+    <string name="txt_user_ranking">采摘排行</string>
+    <string name="txt_garden_search">搜索果园</string>
+    <string name="txt_invite_search">搜索果友</string>
+    <string name="txt_user_sysacount">系统账户</string>
+    <string name="txt_user_setting">个人设置</string>
+    <string name="txt_user_phonenum">手机号</string>
+    <string name="txt_user_ID">身份证号</string>
+    <string name="txt_user_bank_deposit">开户行</string>
+    <string name="txt_user_nothing">无</string>
+    <string name="txt_user_bank_code">银行卡号</string>
+    <string name="txt_user_nickename">昵称</string>
+    <string name="txt_user_realy_name">真实姓名</string>
+    <string name="txt_user_sex">性别</string>
+    <string name="txt_user_sex_male">男</string>
+    <string name="txt_user_sex_female">女</string>
+    <string name="txt_user_feekback">意见反馈</string>
+    <string name="txt_feekback_hint">写下你的反馈!</string>
+    <string name="txt_fruit_fcard">果友名片</string>
+    <string name="txt_fruit_ftime">注册时间</string>
+    <string name="txt_fruit_fId">注册ID</string>
+    <string name="txt_fruit_faddress">所在区域</string>
+    <string name="txt_fruit_fmedalshow">勋章展示</string>
+    <string name="txt_create_new">新建果园</string>
+    <string name="txt_modify_garden">修改果园</string>
+    <string name="txt_invist_title">邀请卡</string>
+    <string name="txt_invist_code">邀请码</string>
+
+
+    <string name="round_corner_progress_bar">Round Corner Progress Bar</string>
+    <string name="icon_round_corner_progress_bar">Icon Round Corner Progress Bar</string>
+    <string name="text_round_corner_progress_bar">Text Round Corner Progress Bar</string>
+    <string name="programmatically">Programmatically</string>
+    <string name="corner_rounder_1">Max : 100\nProgress : 50\nWidth : 250dp\nHeight : 30dp\nRadius : 0dp\nPadding : 2dp</string>
+    <string name="corner_rounder_1_1">Max : 100\nProgress : 40\nSecondaryProgress : 60\nWidth : 250dp\nHeight : 30dp\nRadius : 10dp\nPadding : 2dp</string>
+    <string name="corner_rounder_1_2">Max : 100\nProgress : 40\nSecondaryProgress : 60\nWidth : 250dp\nHeight : 30dp\nRadius : 10dp\nPadding : 2dp\nReverse : True</string>
+    <string name="corner_rounder_2">Max : 100\nProgress : 100\nWidth : 250dp\nHeight : 20dp\nRadius : 20dp\nPadding : 2dp</string>
+    <string name="corner_rounder_3">Max : 100\nProgress : 45\nWidth : 250dp\nHeight : 50dp\nRadius : 5dp\nPadding : 2dp</string>
+    <string name="corner_rounder_4">Max : 100\nProgress : 70\nWidth : 250dp\nHeight : 50dp\nRadius : 10dp\nPadding : 5dp</string>
+    <string name="corner_rounder_5">Max : 100\nProgress : 10\nWidth : 250dp\nHeight : 80dp\nRadius : 30dp\nPadding : 10dp</string>
+    <string name="icon_corner_rounder_1">Max : 150\nProgress : 90\nWidth : 250dp\nIcon Size : 40dp\nIcon Padding : 5dp\nRadius : 5dp\nBackground Padding : 2dp</string>
+    <string name="icon_corner_rounder_1_1">Max : 150\nProgress : 90\nWidth : 250dp\nIcon Size : 40dp\nIcon Padding : 5dp\nRadius : 5dp\nBackground Padding : 2dp\nReverse : True</string>
+    <string name="icon_corner_rounder_1_2">Max : 150\nProgress : 50\nSecondaryProgress : 80\nWidth : 250dp\nIcon Size : 25dp\nIcon Padding : 5dp\nRadius : 5dp\nBackground Padding : 5dp</string>
+    <string name="icon_corner_rounder_2">Max : 150\nProgress : 40\nWidth : 250dp\nIcon Size : 70dp\nIcon Padding : 5dp\nRadius : 5dp\nBackground Padding : 10dp</string>
+    <string name="icon_corner_rounder_3">Max : 150\nProgress : 150\nWidth : 250dp\nIcon Size : 30dp\nIcon Padding : 3dp\nRadius : 5dp\nBackground Padding : 5dp</string>
+    <string name="icon_corner_rounder_4">Max : 150\nProgress : 5\nWidth : 250dp\nIcon Size : 50dp\nIcon Padding : 3dp\nRadius : 0dp\nBackground Padding : 10dp</string>
+    <string name="icon_corner_rounder_5">Max : 150\nProgress : 100\nWidth : 250dp\nIcon Size : 20dp\nIcon Padding : 10dp\nRadius : 30dp\nBackground Padding : 5dp</string>
+    <string name="text_corner_rounder_text_1">Wow</string>
+    <string name="text_corner_rounder_text_2">12890.70</string>
+    <string name="text_corner_rounder_text_3">Reversing</string>
+    <string name="text_corner_rounder_1">Max : 80\nProgress : 50\nSecondary Progress : 60\nWidth : 250dp\nHeight : 50dp\nRadius : 30dp\nBackground Padding : 10dp\nText Progress Margin : 10dp\nText Progress Size : 14sp</string>
+    <string name="text_corner_rounder_2">Max : 65535\nProgress : 12890.70\nWidth : 250dp\nHeight : 30dp\nRadius : 10dp\nBackground Padding : 10dp\nText Progress Margin : 5dp\nText Progress Size : 12sp</string>
+    <string name="text_corner_rounder_3">Max : 17\nProgress : 8\nWidth : 250dp\nHeight : 40dp\nRadius : 2dp\nBackground Padding : 0dp\nText Progress Margin : 5dp\nText Progress Size : 20sp\nReverse : True</string>
+    <string name="decrease"><![CDATA[<]]></string>
+    <string name="increase"><![CDATA[>]]></string>
+    <string name="zero">0</string>
+
+    <!-- Toast -->
+    <string name="toast_open_network">请开启网络</string>
+    <string name="toast_change_succeed">修改成功</string>
+    <string name="toast_no_user">无此用户</string>
+    <string name="toast_auto_inputerror">验证码输入错误</string>
+    <string name="toast_auto_cannotempty">验证码不能为空</string>
+    <string name="toast_servicer_error">服务器繁忙</string>
+    <string name="toast_servicer_error_01">服务器出现错误</string>
+    <string name="toast_quit_again">再按一次退出</string>
+    <string name="toast_cannotempty_Password">密码不能为空</string>
+    <string name="toast_enter_succeed">登录成功</string>
+    <string name="toast_input_phonenumber">请输入手机号码</string>
+    <string name="toast_input_ture_phonenumber">请输入正确的手机号码</string>
+    <string name="toast_cannotempty_nikename">昵称不能为空</string>
+    <string name="toast_register_succeed">注册成功</string>
+    <string name="toast_newgarden_congratulation">恭喜你，有了新果园</string>
+    <string name="toast_submit_succeed">提交成功</string>
+    <string name="toast_evaluate_succeed">请评价你对软件的满意度，谢谢！</string>
+    <string name="toast_inexistence_userID">用户ID不存在</string>
+    <string name="toast_cannotempty_input">输入内容不能为空！</string>
+    <string name="toast_start_pick">我在采摘啦</string>
+    <string name="toast_earnest_write">请输入果园名称 !</string>
+    <string name="toast_cannotempty_cord">身份证号不能为空！</string>
+    <string name="toast_cannotempty_band">开户行不能为空！</string>
+    <string name="toast_cannotempty_bank_code">银行卡号不能为空！</string>
+    <string name="toast_again_choicephoto">请重新选择照片！</string>
+    <string name="toast_getphoto_error">获取照片错误</string>
+    <string name="toast_passrule_error">你输入的密码小于6位或大于12位</string>
+    <string name="toast_modify_garden_success">修改果园成功</string>
+</resources>

@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowAnimationStyle">@style/Anim_activity</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- 头部 横栏显示样式 -->
+    <style name="View_Header_Rel">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ic_home_text_bg</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- 头部 份数显示样式 -->
+    <style name="View_TextView_fen" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TileTexyview" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#ffffff</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ImageViewBack" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!-- 乐投 中间 数字布局 -->
+    <style name="LaoutLevote">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="LaoutLevote02">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- 时间及数字样式-->
+    <style name="LevoteTvStyle01" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorff9d21</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">start</item>
+    </style>
+    <!-- 小灯样式-->
+    <style name="ImageViewStyle01" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/ic_home_light</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    <style name="ImageViewStyle02" parent="ImageViewStyle01">
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="EditView_Create_Style" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#666</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    <style name="View_xian_hang">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#ededed</item>
+    </style>
+    <style name="View_xian_hang_margin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#ededed</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    <style name="NoBarTheme" parent="@android:style/Theme.Holo.NoActionBar">
+    </style>
+    <style name="NoTitleBarTheme" parent="@android:style/Theme.NoTitleBar">
+    </style>
+    <!-- 动画效果 -->
+    <style name="Anim_popup">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_shareboard_animation_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_shareboard_animation_out</item>
+    </style>
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_status</item>
+    </style>
+
+    <style name="Anim_activity">
+        <item name="android:windowEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_left_out</item>
+    </style>
+    <!-- 输入框 -->
+    <style name="Edit_load_Style" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ic_phonenum_input</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:textColorHint">@color/colorecba78</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/colorecba78</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="Edit_load_Style01" parent="Edit_load_Style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:background">@null</item>
+    </style>
+    <!-- 个人信息 -->
+    <style name="SelfTvStyle" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color61281d</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- 单选框样式 -->
+    <style name="RadioButtonStyles">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@drawable/sex_rediostyle</item>
+        <item name="android:textColor">@color/color61281d</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
